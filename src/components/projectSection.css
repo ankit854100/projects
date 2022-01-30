@@ -1,5 +1,5 @@
 .projectSection{
-    text-align: center;
+    text-align: left;
 }
 
 .projectSection > h1{
@@ -12,4 +12,19 @@
     gap: 1rem;
     margin-bottom: 1rem;
     align-items: center;
+}
+
+@media (max-width: 600px){
+    .projectSection > h1{
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    .projectContainer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin-bottom: 1rem;
+        align-items: center;
+    }
 }

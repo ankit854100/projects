@@ -23,7 +23,7 @@ function Project({ name, tech_used, url, image }) {
                         <div className='tech-container'>
                             {tech_used.map((tech, index) => <span key={index}>{tech}</span>)}
                         </div>
-                        <a href={url}>Visit Project</a>
+                        <a href={url} target="_blank">Visit Project</a>
                     </div>
                 </div>
                 : null

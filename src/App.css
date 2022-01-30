@@ -2,3 +2,9 @@
   padding: 0 10rem;
 }
 
+
+@media (max-width: 600px) {
+  .App{
+    padding: 0 2rem;
+  }
+}
