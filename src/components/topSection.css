@@ -1,0 +1,8 @@
+.topSection-container{
+    padding: 5em 0;
+}
+
+.topSection-container > h1{
+    font-size: 4rem;
+    font-weight: 200;
+}

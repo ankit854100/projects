@@ -1,0 +1,15 @@
+.projectSection{
+    text-align: center;
+}
+
+.projectSection > h1{
+    font-size: 3rem;
+}
+
+.projectContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
