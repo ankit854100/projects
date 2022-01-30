@@ -46,7 +46,7 @@
     font-size: 0.9rem;;
 }
 
-.details-container a{
+.details-container .link{
     text-decoration: none;
     padding: 0.25rem 0.5rem;
     border: 1px solid #fff;
@@ -56,10 +56,19 @@
     transition: all 0.5s ease;
 }
 
-.details-container a:hover{
+.details-container .link:hover{
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
     color: #BBBBBB;
     border-color: #BBBBBB;
+}
+
+.extension{
+    font-size: 1rem !important;
+    font-weight: 300 !important;
+}
+
+.extension > a{
+    color: #fff;
 }
 
 @media (max-width: 600px){
@@ -75,7 +84,11 @@
         font-size: 0.5rem;
     }
 
-    .details-container a{
+    .details-container .link{
         font-size: 0.8rem;
+    }
+
+    .extension{
+        font-size: 0.8rem !important;
     }
 }
